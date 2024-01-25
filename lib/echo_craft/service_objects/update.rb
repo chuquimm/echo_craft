@@ -2,6 +2,7 @@
 
 module EchoCraft
   module ServiceObjects
+    require 'echo_craft/service_object'
     # Basic Response to Update a Record on ServiceObject
     class Update < EchoCraft::ServiceObject
       attr_accessor :params

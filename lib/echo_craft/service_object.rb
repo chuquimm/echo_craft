@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module EchoCraft
+  require 'echo_craft/response'
   # Basic Response to Service Objects
   class ServiceObject < EchoCraft::Response
     attr_accessor :record, :successful

@@ -2,6 +2,7 @@
 
 module EchoCraft
   module ServiceObjects
+    require 'echo_craft/service_object'
     # Basic Response to Create a Record on ServiceObject
     class Create < EchoCraft::ServiceObject
       attr_accessor :params

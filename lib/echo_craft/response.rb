@@ -3,6 +3,9 @@
 module EchoCraft
   # Basic Response with EchoCraft Struct
   class Response
+    require 'rack'
+    require 'ostruct'
+
     attr_reader :status, :message, :data
 
     def initialize

@@ -2,6 +2,7 @@
 
 module EchoCraft
   module ServiceObjects
+    require 'echo_craft/service_object'
     # Basic Response to Destroy a Record on ServiceObject
     class Destroy < EchoCraft::ServiceObject
       def initialize(record)
