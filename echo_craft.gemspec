@@ -3,7 +3,7 @@
 require_relative 'lib/echo_craft/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'echo_craft'
+  spec.name = 'echo-craft'
   spec.version = EchoCraft::VERSION
   spec.authors = ['Marcos Chuquicondor']
   spec.email = ['marcos@chuquicondor.com']
