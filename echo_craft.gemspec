@@ -34,6 +34,7 @@ Gem::Specification.new do |spec|
     'lib/echo_craft/service_object.rb',
     'lib/echo_craft/service_objects/create.rb',
     'lib/echo_craft/service_objects/destroy.rb',
+    'lib/echo_craft/service_objects/query.rb',
     'lib/echo_craft/service_objects/update.rb'
   ]
 
